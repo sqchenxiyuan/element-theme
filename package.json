@@ -1,10 +1,10 @@
 {
-  "name": "element-theme",
-  "version": "2.0.1",
+  "name": "@sqchenxiyuan/element-theme",
+  "version": "3.0.0",
   "description": "Theme generator cli tool for Element",
   "bin": {
-    "element-theme": "./bin/element-theme",
-    "et": "./bin/element-theme"
+    "element-theme": "bin/element-theme",
+    "et": "bin/element-theme"
   },
   "files": [
     "bin",
@@ -24,7 +24,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:ElementUI/element-theme.git"
+    "url": "https://github.com/sqchenxiyuan/element-theme.git"
   },
   "keywords": [
     "element-ui",
@@ -36,8 +36,11 @@
     "url": "https://github.com/ElementUI/element-theme/issues"
   },
   "author": "qingwei-li <cinwell.li@gmail.com> (https://github.com/QingWei-Li)",
+  "contributors": [
+    "sqchenxiyuan <s.q.chenxiyuan@gmail.com> (https://github.com/sqchenxiyuan)"
+  ],
   "engines": {
-    "node": ">=0.12.0"
+    "node": ">=6"
   },
   "license": "MIT",
   "peerDependencies": {
@@ -55,5 +58,9 @@
   "devDependencies": {
     "element-theme-chalk": "^2.13.0",
     "xo": "^0.25.3"
+  },
+  "homepage": "https://github.com/sqchenxiyuan/element-theme",
+  "directories": {
+    "lib": "lib"
   }
 }
